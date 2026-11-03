@@ -1,3 +1,48 @@
+# Application Screenshots
+
+## 1. Employee Portal
+
+The Employee Portal allows employees to create expense claims, manage their own claims, upload receipts, and track claim status.
+
+### Employee Dashboard
+![Employee Dashboard](ScreenShots/employee_view/employee_dashboard.png)
+
+### Create Expense Claim
+![Create Claims](ScreenShots/employee_view/create_claims.png)
+
+### Employee Claims
+![Employee Claims](ScreenShots/employee_view/employee_claims.png)
+
+### My Claims
+![My Claims](ScreenShots/employee_view/my_claims.png)
+
+---
+
+## 2. Manager Portal
+
+The Manager Portal allows managers to monitor expense claims, review and approve or reject claims, and manage employees.
+
+### Manager Login
+![Manager Login](ScreenShots/manager_view/login_page.jpeg)
+
+### Manager Dashboard
+![Manager Dashboard](ScreenShots/manager_view/manager_dashboard.jpeg)
+
+### All Employee Claims
+![All Employee Claims](ScreenShots/manager_view/all_employee_claims.jpeg)
+
+### Employee Management
+![List of Employees](ScreenShots/manager_view/list_of_employees.jpeg)
+
+### Review Claims
+![Review Claims](ScreenShots/manager_view/review_claims_pending_approved.jpeg)
+
+### View Claims
+![View Claims](ScreenShots/manager_view/view_claims.jpeg)
+
+
+
+
 # Expense Claim Management System
 
 React + Vite frontend starter with a polished, interactive demo mode and an Axios service layer ready for the Spring Boot API.
@@ -16,10 +61,7 @@ On Windows PowerShell, use `Copy-Item .env.example .env`.
 
 Open the URL printed by Vite (normally http://localhost:5173).
 
-## Demo accounts
-Demo mode is enabled by default (`VITE_DEMO_MODE=true`).
-- Employee: `employee@demo.com` / `password`
-- Manager: `manager@demo.com` / `password`
+
 
 You can switch role from the user menu in the top-right to preview both experiences. Demo mode uses browser local storage and does not call the backend.
 
@@ -42,3 +84,7 @@ npm run preview
 - `context/`: authentication state
 - `routes/`: route definitions and role guards
 - `utils/`: formatting helpers
+
+
+
+
